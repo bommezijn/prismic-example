@@ -1,4 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+Application is written with help of a tutorial written by Rryan Warner
+[prismic gatsby site tutorial](https://ryan.warner.codes/create-a-prismic-gatsby-site/)
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
