@@ -6,6 +6,15 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-prismic',
+      options: {
+        repositoryName: 'cmd-midterm',
+        schemas: {
+          post: require('./src/schemas/post.json'),
+        },
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
