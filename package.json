@@ -1,0 +1,14 @@
+{
+  "name": "node-prismic-example",
+  "version": "1.0.0",
+  "description": "example with node and prismic",
+  "main": "index.js",
+  "repository": "https://github.com/bommezijn/prismic-example.git",
+  "author": "Nathan B <dewakik@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type":"module",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
