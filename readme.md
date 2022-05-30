@@ -96,6 +96,7 @@ bij svelte, met reactive variables, voor svelte specifiek, index.svelte en index
 
 # vragen
 > Wat is een tab?
+Een tab is een sectie van de content die je schrijft, hiermee kan je de schrijver het makkelijker maken door de content in stappen in te laten vullen.
 
 
 
