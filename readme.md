@@ -1,117 +1,68 @@
-# notes about the workshop Headless CMS JAMstack
- SPA overzetten naar een paged content. Gemak voor het creeren van content en voor het lezen.
- met bv nav
+# prismic-example
 
- <!-- https://cmd-midterm.prismic.io/ -->
- <!-- https://www.gatsbyjs.com/dashboard/511768bd-ab82-4113-9315-1c76c0ad2cea/sites/d529f723-d2ad-4377-af55-d0c3f60a2b59/deploys -->
- <!-- https://prismic.io/dashboard -->
+## Build Setup
 
-voornamelijk over jamstack en hoe we een api klaar kunnen zetten, en een api neer te zetten die te beheren valt.
-Definitie van JAMstack, wat het is, hoe het gebruikt kan worden etc.
-JAMstack (JavaScript API Markup) met de website [JAMSTACK](jamstack.org).
+```bash
+# install dependencies
+$ npm install
 
-meest belangrijke components:
-* prerendering -> Server side rendering zodat het op de client in een kant- en klare pakket binnenkomt omdat het statisch is.
-* Decoupling -> Js en data van die twee dingen informatie pagina gaat maken is omdat het losgekoppeld van elkaar is.
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-Twee belangrijke tools binnen JAMstack;
-* Site generator (zowel dynamisch als statisch)
-* Content Management Systeem (Headless CMS), headless omdat je dan de decoupled, je haalt de data en de markup van elkaar af. zodat je makkelijk de markup kan bepalen.
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-met de voorbeeld van [CMD-amsterdam.nl](cmd-amsterdam.nl) is gemaakt voor 50 euro door middel van Wordpress en een thema. wordpress is bv een CMS, kan trouwens ook sinds een periode headless.
-(wp-json achter een wp website kan je JSON terug krijgen). Influed Sharon ohh chickie uit brabant.
+# generate static project
+$ npm run generate
+```
 
-programma.fdnd.nl Is de nieuwe website voor fdnd, gebasseerd op CMD en de minor web dev. wat ze hier doen is dat ze niet in vakken denken maar in agile, per sprint gaan ze aan de slag. dit is gemaakt met sveltekit.
-benoemd dat nuxt en next server side zijn ondanks dat deze ook static dynamic, server side of client side rendert kan worden.
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-voordeel van static generated websites
-* Performance
-* Scalability
-* Developer friendly
-* Microservices kunnen dat maken (frontend?)
-* **Op JAMstack staan meer voordelen**
+## Special Directories
 
-stack waar Joost en Justus gebruiken sveltekit + Prismic, maar de keuze blijft aan ons, welke framework we kunnen gebruiken.
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
 
-Verzoek om ook Prismic te gebruiken omdat mid term + smoeleboek en iljo bar verder ontwikkelen.
-(ze hebben het ook over Amber)
+### `assets`
 
-static site generator, genereert statische HTML pagina's, hier zal de HTML al populated zijn. (sends populated HTML)
-Dynamic site generator, vraag naar de server, route ken ik, dus genereer de HTML en populeer het. (sends empty HTML and populates it with JS)
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
 
-Er was onderzoek gedaan naar Prismic en hoe het aan de behoeftes aan de developer voldoet.
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
 
-FDND Microsites, voor iedere pagina hebben ze eigenlijk een microsite, maar het leuke van de micro frontend (microservices) aanpak, is dat ze iedere pagina kunnen aanpakken met een eigen framework/library.
+### `components`
 
-Programma heeft content en een inleidende tekst, wat een content type is, oftewel een een page
-de pagina programma heeft de volgende dingen
-* Title
-* Description 
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
-Partial heading van de page is een image met een heading maar daaronder heb je de heading van de content.
-in Programma heb je semesters, waar de volgende velden in zit, een titel, een subtitel, met bv een beschrijving.
-Daarna heb je de sprintcards erin zitten, dit zijn components binnen de semesters, oftewel sprints, sprint ziet er uit met een title en een date.
-een sprint heeft meer content dan bovengenoemde, want het heeft eeh heading, een date, paragraph, topics (tags), content (rich text). Wat Joost heeft gedaan hiervoor is een ifnromatie van 1 rich text input element maar zou hier het liefst per hoofdstuk structuren
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
 
-Programma @ fdnd - page
-  -> title (heading)
-  -> description (rich text)
-  -> ->  semesters
-  -> -> -> title (heading)
-  -> -> -> subtitle (text)
-  -> -> -> -> sprint
-  -> -> -> -> title (heading)
-  -> -> -> -> date (datetime)
-  -> -> -> -> topics (tag)
-  -> -> -> -> content (rich text)
+### `layouts`
 
-<!-- (note for self: prismic Wat is een tab binnen een content type?) -->
-in prismic heeft Joost een relatie element erin geplaatst, waar je elementen aan elkaar kan koppelen
-een voorbeeld hiervan 
-![CleanShot 2022-05-25 at 13 10 29@2x](https://user-images.githubusercontent.com/13199349/170249164-9ec2a532-0f10-4c90-8120-fde61818e449.png)
+Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
-type semester / etc etc is een custom type, een unieke pagina dat niet repetief is of een repetieve content
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
 
-heeft iedere page een tag gegeven zodat je dit makkelijker kan vinden.
+### `pages`
 
-[Hoe kan je importeren / exporteren](https://prismic.io/docs/core-concepts/import-export)
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
 
-Link kan je vinden onder API & security.
-ook kan je de JSON vinden door de link https://yourRepo.prismic.io/api/v2 te bezoeken.
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
 
-# Sveltekit keuze bepaling
-opinionated keuze
->waarom gekozen
-nieuwe ontwikkeling, open source, svelte origine is van origine een parser voor web tech. het genereert repsonsive optimised webapps. en compiled de code naar code naar de server. het is meer reactive naar react. en het draait overal waar Internet / browser beschikbaar is. Het is een compiler, dat is het verschil tussen de rest.
+### `plugins`
 
-Ze noemen het een de next big framework en kijkt naar bv de compiling option voor react.
-rich text omzetten naar HTML.
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
 
->wanneer wordt data opgehaald
-bij svelte, met reactive variables, voor svelte specifiek, index.svelte en index.js. de JS is de endpoint, in de js zit een fetch die opent de client
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
 
+### `static`
 
+This directory contains your static files. Each file inside this directory is mapped to `/`.
 
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
 
-# vragen
-> Wat is een tab?
-Een tab is een sectie van de content die je schrijft, hiermee kan je de schrijver het makkelijker maken door de content in stappen in te laten vullen.
+### `store`
 
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
-
-## data structure
-slug (uid)
-Page title (h1)
-page introductory (rich text)
-
-group ()
-heading (h2)
-subheading (h3)
-content (rich text)
-
-img (optional)
-
-heading (h2)
-subheading (optional h3)
-content (rich text)
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
