@@ -6,7 +6,7 @@ const ACCESS_TOKEN = ''
 
 const routes = [
   {
-    type: 'post',
+    type: 'standaard',
     path: '/:uid'
   }
 ]

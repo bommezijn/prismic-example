@@ -1,0 +1,9 @@
+<h1>Some homepage introduction</h1>
+
+<nav>
+  <ul>
+    <% nav.forEach(element => { %>
+      <li><a href="<%- element %>"><%- element %></a></li>
+    <% }) %>
+  </ul>
+</nav>

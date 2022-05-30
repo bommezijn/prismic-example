@@ -22,11 +22,22 @@ app.use((req, res, next) => {
   next()
 })
 
-app.get('/', async (req, res) => {
-  const document = await client.getFirst()
-  console.log(document)
+
+
+app.get('/:standaard', async (req, res, next) => {
+  const document = await client.getByUID('standaard', req.params.standaard)
   res.render('page', {document})
+  next()
 })
+
+app.get('/', async (req, res) => {
+  // const document = await client.getFirst()
+  // const document = await client.getByUID('standaard', 'standaard-1')
+
+  // console.log(document)
+  res.render('index', {nav: ['standaard-1','standaard-2','standaard-3','standaard-4']})
+})
+
 
 app.listen(port, () => {
   console.log(`listening at http://localhost:${port}`)
