@@ -1,0 +1,27 @@
+{
+  "slices": {
+    "ArticleSlice": {},
+    "Article": {},
+    "ArticleHeading": {},
+    "ArticleContent": {
+      "default": {
+        "primary": {},
+        "items": {
+          "image": {
+            "content": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103"
+          },
+          "articleContent": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "_cts": {
+    "standaard": {},
+    "TestOfContent": {}
+  }
+}

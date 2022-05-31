@@ -1,0 +1,228 @@
+{
+  "slices": {
+    "components": {
+      "article_content": {
+        "library": "slices",
+        "id": "article_content",
+        "name": "ArticleContent",
+        "description": "ArticleContent",
+        "model": {
+          "id": "article_content",
+          "type": "SharedSlice",
+          "name": "ArticleContent",
+          "description": "ArticleContent",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ArticleContent",
+              "primary": {},
+              "items": {
+                "articleHeading": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Article Heading",
+                    "placeholder": ""
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "articleContent": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Article Content",
+                    "placeholder": "Some content",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "article_content",
+            "items": [
+              {
+                "articleHeading": "syndicate e-business ROI",
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+                },
+                "articleContent": [
+                  {
+                    "type": "paragraph",
+                    "text": "Veniam cillum consequat amet voluptate ipsum. Culpa elit fugiat dolore proident irure sunt elit tempor eu culpa ipsum est enim esse dolore. Commodo deserunt aliquip nostrud dolor minim labore do culpa ipsum exercitation consectetur adipisicing sit mollit.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "articleHeading": "aggregate next-generation infrastructures",
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=900&h=500&fit=crop"
+                },
+                "articleContent": [
+                  {
+                    "type": "paragraph",
+                    "text": "Minim aliquip eiusmod consectetur et nulla deserunt incididunt culpa dolore. Ad reprehenderit incididunt culpa mollit deserunt officia ipsum reprehenderit tempor excepteur laborum. Aliquip aliqua amet mollit incididunt commodo sint fugiat adipisicing sunt tempor.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "articleHeading": "harness value-added networks",
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                },
+                "articleContent": [
+                  {
+                    "type": "paragraph",
+                    "text": "Esse culpa sint culpa enim dolore non dolore eu voluptate qui qui aliqua officia. In cupidatat velit est exercitation esse qui anim nulla ullamco Lorem dolor ullamco aliqua Lorem. Et enim irure est fugiat qui eu nostrud Lorem est reprehenderit.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "articleHeading": "generate sticky users",
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+                },
+                "articleContent": [
+                  {
+                    "type": "paragraph",
+                    "text": "Proident in excepteur reprehenderit.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/nbmp/repos/meesterproef/prismic-example/.slicemachine/assets/slices/ArticleContent/default/preview.png",
+            "width": 800,
+            "height": 128
+          }
+        }
+      },
+      "article_heading": {
+        "library": "slices",
+        "id": "article_heading",
+        "name": "ArticleHeading",
+        "description": "ArticleHeading",
+        "model": {
+          "id": "article_heading",
+          "type": "SharedSlice",
+          "name": "ArticleHeading",
+          "description": "ArticleHeading",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ArticleHeading",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "article_heading",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Deploy out-of-the-box e-markets",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Fugiat ullamco id anim veniam exercitation irure eiusmod cillum sit do enim. Commodo est exercitation exercitation ullamco amet fugiat quis aliqua Lorem excepteur aliquip consectetur reprehenderit excepteur. Cupidatat commodo laborum deserunt ipsum.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/nbmp/repos/meesterproef/prismic-example/.slicemachine/assets/slices/ArticleHeading/default/preview.png",
+            "width": 800,
+            "height": 279
+          }
+        }
+      }
+    }
+  }
+}

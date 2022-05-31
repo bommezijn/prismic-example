@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "article_slice",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Evolve cutting-edge functionalities",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Proident elit qui ad non velit consequat irure occaecat officia.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

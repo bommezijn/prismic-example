@@ -1,3 +1,6 @@
+import { apiEndpoint } from './sm.json'
+import smConfig from './sm.json';
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -27,13 +30,22 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/prismic',
   ],
+  prismic: {
+    endpoint: apiEndpoint,
+    modern: true,
+    routes: [{type:'SomeTest', path: '/:uid'}]
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
+  modules: [["@nuxtjs/prismic", {
+    endpoint: smConfig.apiEndpoint|| ""
+  }],
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
   ],
+  
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
@@ -43,5 +55,7 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    transpile: ['@prismicio/vue']
+  },
 }

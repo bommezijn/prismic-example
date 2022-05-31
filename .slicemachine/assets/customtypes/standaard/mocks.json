@@ -1,0 +1,238 @@
+{
+  "id": "f8514680-6a7f-4a96-8b1a-061066f79934",
+  "uid": "quo-sed-optio",
+  "type": "standaard",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Implement collaborative channels",
+        "spans": []
+      }
+    ],
+    "introduction": [
+      {
+        "type": "paragraph",
+        "text": "Excepteur mollit laborum culpa eiusmod amet cillum aliqua quis pariatur enim aliquip incididunt nostrud occaecat. Anim non aute consectetur exercitation.",
+        "spans": []
+      }
+    ],
+    "chapters": [
+      {
+        "img": {
+          "dimensions": {
+            "width": 500,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=500&h=500&fit=crop",
+          "small": {
+            "dimensions": {
+              "width": 250,
+              "height": 250
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=250&h=250&fit=crop"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1600,
+              "height": 900
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=1600&h=900&fit=crop"
+          }
+        },
+        "chapter-title": [
+          {
+            "type": "heading2",
+            "text": "Redefine out-of-the-box e-tailers",
+            "spans": []
+          }
+        ],
+        "content-of-chapter": [
+          {
+            "type": "paragraph",
+            "text": "Sunt est quis ullamco laborum eu. Quis eu id deserunt nisi nisi magna amet duis ipsum et. In ex pariatur duis nisi laborum aute qui sit excepteur.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "img": {
+          "dimensions": {
+            "width": 500,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=500&h=500&fit=crop",
+          "small": {
+            "dimensions": {
+              "width": 250,
+              "height": 250
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=250&h=250&fit=crop"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1600,
+              "height": 900
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=1600&h=900&fit=crop"
+          }
+        },
+        "chapter-title": [
+          {
+            "type": "heading2",
+            "text": "Benchmark 24/365 channels",
+            "spans": []
+          }
+        ],
+        "content-of-chapter": [
+          {
+            "type": "paragraph",
+            "text": "Aliquip aliquip excepteur excepteur commodo laboris esse minim ad incididunt culpa voluptate quis fugiat duis. Velit reprehenderit in mollit in enim officia aute do dolor.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "img": {
+          "dimensions": {
+            "width": 500,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=500&h=500&fit=crop",
+          "small": {
+            "dimensions": {
+              "width": 250,
+              "height": 250
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=250&h=250&fit=crop"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1600,
+              "height": 900
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=1600&h=900&fit=crop"
+          }
+        },
+        "chapter-title": [
+          {
+            "type": "heading2",
+            "text": "Seize holistic paradigms",
+            "spans": []
+          }
+        ],
+        "content-of-chapter": [
+          {
+            "type": "paragraph",
+            "text": "Voluptate adipisicing mollit ad non dolor deserunt incididunt cupidatat ullamco reprehenderit. Fugiat veniam sunt nulla fugiat ipsum aliqua dolore labore irure quis ad.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "img": {
+          "dimensions": {
+            "width": 500,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=500&h=500&fit=crop",
+          "small": {
+            "dimensions": {
+              "width": 250,
+              "height": 250
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=250&h=250&fit=crop"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1600,
+              "height": 900
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=1600&h=900&fit=crop"
+          }
+        },
+        "chapter-title": [
+          {
+            "type": "heading2",
+            "text": "Grow value-added schemas",
+            "spans": []
+          }
+        ],
+        "content-of-chapter": [
+          {
+            "type": "paragraph",
+            "text": "Nisi sit duis nostrud eu labore incididunt mollit consequat nulla ut exercitation incididunt proident officia. Elit tempor deserunt sit fugiat mollit.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "img": {
+          "dimensions": {
+            "width": 500,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=500&h=500&fit=crop",
+          "small": {
+            "dimensions": {
+              "width": 250,
+              "height": 250
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=250&h=250&fit=crop"
+          },
+          "large": {
+            "dimensions": {
+              "width": 1600,
+              "height": 900
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=1600&h=900&fit=crop"
+          }
+        },
+        "chapter-title": [
+          {
+            "type": "heading2",
+            "text": "Deliver sticky schemas",
+            "spans": []
+          }
+        ],
+        "content-of-chapter": [
+          {
+            "type": "paragraph",
+            "text": "Nisi sunt id sunt minim irure ea incididunt ad voluptate incididunt. Excepteur sint labore consectetur est dolore cillum ex anim veniam officia elit sit ex cillum. Ex tempor enim nulla eiusmod tempor laboris elit nulla mollit dolor.",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}

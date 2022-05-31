@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "article_heading",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Deploy out-of-the-box e-markets",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Fugiat ullamco id anim veniam exercitation irure eiusmod cillum sit do enim. Commodo est exercitation exercitation ullamco amet fugiat quis aliqua Lorem excepteur aliquip consectetur reprehenderit excepteur. Cupidatat commodo laborum deserunt ipsum.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
